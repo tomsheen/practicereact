@@ -1,0 +1,76 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 150px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+
+.sheeny{
+    height: 150px;
+    width: 150px;
+}
+
+.sheeny:hover {
+    opacity:0.7 !important;
+    cursor: pointer;
+}
+
+.navbarButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    transition: all 0.1s;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: #68778d;
+    font-weight: 600;
+}
+
+.navbarButton:hover {
+    box-shadow: inset 0 -3px 0 0 #43BCEF;
+    cursor: pointer;
+}
+
+.link {
+    display: flex;
+    text-decoration: none;
+    color: #68778d;
+    width: 100%;
+    height: 100%;
+}
+
+.link:hover {
+    color: black;
+}
+
+.socials {
+    display: flex;
+    width: 100px;
+    padding-right: 0px;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    position: relative;
+}

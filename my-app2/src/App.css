@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  background: linear-gradient(65.7deg, rgb(245, 245, 245) 8.35%, rgb(255, 255, 255) 100%) rgb(24, 26, 29);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
